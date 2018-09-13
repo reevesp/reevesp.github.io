@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Uninstalling Docker and Kitematic"
-categories: foo bar baz
 ---
 I wanted to uninstall Docker and Kitematic, in order to replace/update them to their latest versions (I couldn't autoupdate them).
 I had not used either of them in years, so they were very out-of-date. Also, I was very rusty at using both. I could not remember how I installed them, but I decided that I would remove Kitematic first, and then Docker.

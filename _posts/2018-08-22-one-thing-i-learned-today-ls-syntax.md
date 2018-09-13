@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "One thing I learned today: ls syntax"
-categories: foo bar baz
 ---
 _Note: I’m using the BSD `ls` on a mac._
 

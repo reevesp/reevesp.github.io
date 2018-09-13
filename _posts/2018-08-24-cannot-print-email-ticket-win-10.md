@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Struggling to Print an email-ticket from the Windows10 Mail App"
-categories: foo bar baz
 ---
 This is what happened when my relative asked for help when he couldn't print his email.
 The email in question was a ticket to an event from drinkup.london, it was a short document with a barcode in the middle- the sort that you print at home, take to the event, and the door staff will scan the barcode.

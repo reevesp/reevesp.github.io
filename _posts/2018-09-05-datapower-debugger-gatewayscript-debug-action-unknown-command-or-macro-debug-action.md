@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "DataPower Gatewayscript: Unknown command or macro (debug-action)"
-categories: foo bar baz
 ---
 I was having a brainfart today and I could not get the Gatewayscript debugger to work on the DataPower CLI. However, after asking around some colleagues, it seems I wasn’t the only person to drop this particular clanger- so I had better write it up!
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "DataPower SSH Service not starting on Docker"
-categories: foo bar baz
 ---
 Another day, another DataPower brainfart. Only a small one though.
 

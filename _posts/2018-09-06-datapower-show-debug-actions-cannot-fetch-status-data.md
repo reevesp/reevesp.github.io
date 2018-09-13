@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "DataPower show-debug-actions, Cannot fetch status data"
-categories: foo bar baz
 ---
 While recording some CLI snippets for use in my previous blog, I noticed myself "deskilling".
 Now I couldn't even get the `show debug-actions` command to work!

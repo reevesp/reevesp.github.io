@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Trouble Bringing up the APIC Designer's Local Services"
-categories: foo bar baz
 ---
 
 # Trouble bringing up the apic designer local services

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Moving to Atom from Eclipse: Eclipse's Ctrl+H, Atom's Markdown"
-categories: foo bar baz
 ---
 A few colleagues have recommended that I try to use Atom instead of Eclipse. I'm happy to try new things, especially as I've been on a project for 3 years that was centred around Eclipse and Rational Software Architect and I don't want to become stuck in a rut.
 

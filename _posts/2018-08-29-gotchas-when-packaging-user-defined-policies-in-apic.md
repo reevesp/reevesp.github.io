@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Gotchas when packaging User-Defined-Policies in APIC"
-categories: foo bar baz
 ---
 Something I have been playing around with recently are user-defined-policies (UDPs) in APIC.
 As a quick recap, APIs can have custom assemblies attached to them, so that custom processing will be run on the message in the gateway.
