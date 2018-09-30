@@ -29,7 +29,7 @@ Two hints I got from this thread were-
 
 First, I checked that I had sufficient free resources on my host OS, and closed some extraneous programs.
 
-Then, I did the “official” bouncing of the toolkit, using `apic services:stop` from the directory that I was running the toolkit. And then `apic services:start` after a little while :coffee:.
+Then, I did the “official” bouncing of the toolkit, using `apic services:stop` from the directory that I was running the toolkit. And then `apic services:start` after a little while.
 
 Most of the time now when the Toolkit services fail to start for me, bouncing the services has cleared up the matter.
 In fact, I believe that `apic services` is a much more reliable method for managing the toolkit’s local hosting of apis, compared to the API Designer’s web interface.
@@ -54,7 +54,7 @@ c0e4ba3b7adb
 7015094aed06
 ```
 
-Then, I wait a while :coffee::coffee:.
+Then, I wait a while.
 I check that apic services is not saying any services are running.
 
 Then, start it all up with `apic edit` again.
