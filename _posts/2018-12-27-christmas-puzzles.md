@@ -36,8 +36,8 @@ You can see my workings in the following blogs:
 
 <!---TODO: Work out how relative links work in Github Pages/Jekyll --->
 
-[Coin Puzzle](2018/12/28/christmas-coin-puzzle.html)
+[Coin Puzzle](https://reevesp.github.io/2018/12/28/christmas-coin-puzzle.html)
 
-[Truck Puzzle](2018/12/28/christmas-truck-puzzle.html)
+[Truck Puzzle](https://reevesp.github.io/2018/12/28/christmas-truck-puzzle.html)
 
-[Clock Puzzle](2018/12/28/christmas-clock-puzzle.html)
+[Clock Puzzle](https://reevesp.github.io/2018/12/28/christmas-clock-puzzle.html)
