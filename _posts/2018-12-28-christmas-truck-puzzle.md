@@ -41,7 +41,7 @@ That being said, I'm not sure how watertight the wording of this puzzle is.
 
 ## Why do I keep talking about an infinite fuel source?
 
-I'll admit, I was initially lead down the garden path as I read this puzzle. I was already thinking about Conway's Soldiers (https://en.wikipedia.org/wiki/Conway's_Soldiers) when the puzzle mentioned trying to get as far as possible from a starting point, the crux of the logic being around the interaction between the trucks, and that the trucks can give each other "moves" by being positioned next to each other.
+I'll admit, I was initially lead down the garden path as I read this puzzle. I was already thinking about [Conway's Soldiers](https://en.wikipedia.org/wiki/Conway's_Soldiers) when the puzzle mentioned trying to get as far as possible from a starting point, the crux of the logic being around the interaction between the trucks, and that the trucks can give each other "moves" by being positioned next to each other.
 
 This is a significant diversion, so I have ignored this for now.
 
