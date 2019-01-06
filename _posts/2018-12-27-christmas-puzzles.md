@@ -34,8 +34,10 @@ I have no idea if these are the right answers, I look forward to talking about t
 
 You can see my workings in the following blogs:
 
-[Coin Puzzle](_posts./2018-12-27-christmas-coin-puzzle.md)
+<!---TODO: Work out how relative links work in Github Pages/Jekyll --->
 
-[Truck Puzzle](_posts./2018-12-27-christmas-truck-puzzle.md)
+[Coin Puzzle](2018/12/28/christmas-coin-puzzle.html)
 
-[Clock Puzzle](_posts./2018-12-27-christmas-clock-puzzle.md)
+[Truck Puzzle](2018/12/28/christmas-truck-puzzle.html)
+
+[Clock Puzzle](2018/12/28/christmas-clock-puzzle.html)
