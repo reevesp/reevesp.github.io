@@ -45,9 +45,9 @@ The reversing clock to be going at `-1 hour-distance / hour`. (Same speed, but n
 Both clocks do one full revolution of the clock-face in 12 hours.
 
 When both clocks have covered 12 hours-distance in total, then the two clocks will have a collision.
-Given that they are traveling in opposite directions form the '12' on the clock face, they begin with 12 hours-distance between them.
+Given that they are traveling in opposite directions from the '12' on the clock face, they begin with 12 hours-distance between them.
 
-Given that each clock is covering 1 hour-distance / hour in opposite directions the relative speed of the two clocks from each other is `2 hour-distance / hour`. (The hour-hands diverge by this distance per hour).
+Given that each clock is covering `1 hour-distance / hour` in opposite directions the relative speed of the two clocks from each other is `2 hour-distance / hour`. (The hour-hands diverge by this distance per hour).
 And given that there are 12 hour-distances in one full revolution of the clock face, we can therefore say that the two clocks will meet every `12 hour-distance / (2 hour-distance / hour ) = 6 hours`.
 
 So, in 24 hours (1 day), the two clocks will collide `24 hours in a day / 6 hours per collision = 4 collisions`.
@@ -55,10 +55,10 @@ These times would be:
 
 |San Dimas Time (Control Clock)|Reverse-Speed Clock|
 |------------------------------|-------------------|
-|00:00|00:00|
-|06:00|18:00|
-|12:00|12:00|
-|18:00|12:00|
+|00:00 (Day 0)|00:00 (Day 0)|
+|06:00 (Day 0)|18:00 (Day -1)|
+|12:00 (Day 0)|12:00 (Day -1)|
+|18:00 (Day 0)|06:00 (Day -1)|
 
 ...and then next at midnight of the following day.
 
@@ -82,12 +82,12 @@ These times would be:
 
 |San Dimas Time (Control Clock)|2x-Reverse-Speed Clock|
 |------------------------------|----------------------|
-|00:00|00:00|
-|04:00|20:00|
-|08:00|16:00|
-|12:00|12:00|
-|16:00|08:00|
-|20:00|04:00|
+|00:00 (Day 0)|00:00 (Day 0)|
+|04:00 (Day 0)|16:00 (Day -1)|
+|08:00 (Day 0)|08:00 (Day -1)|
+|12:00 (Day 0)|00:00 (Day -1)|
+|16:00 (Day 0)|16:00 (Day -2)|
+|20:00 (Day 0)|08:00 (Day -2)|
 
 ...and then next at midnight of the following day.
 
@@ -114,10 +114,10 @@ These times would be at:
 
 |San Dimas Time (Control Clock)|3x-Speed Clock|
 |------------------------------|--------------|
-|00:00|00:00|
-|06:00|18:00|
-|12:00|12:00|
-|18:00|06:00|
+|00:00 (Day 0)|00:00 (Day 0)|
+|06:00 (Day 0)|18:00 (Day 0)|
+|12:00 (Day 0)|12:00 (Day 1)|
+|18:00 (Day 0)|06:00 (Day 2)|
 
 ...and then next at midnight of the following day.
 
@@ -150,9 +150,3 @@ We can model the hours-hand as a control clock, and the minute-hand as a 12x spe
 Plugging in values, we get that there will be a collision every `12 / |(12 - 1)| = 12/11 =~ 1.0909 recurring` hours.
 
 There will be `|2(12 - 1)| = 22` collisions per 24 hour period.
-
-# What about Clocks that don't go at constant speeds?
-
-# Can I come up with an example where there isn't a collision on midnight the following day?
-
-# What about if we add more hours to the day or to the clock face?
