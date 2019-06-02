@@ -3,8 +3,6 @@ layout: post
 title:  "Trouble Bringing up the APIC Designer's Local Services"
 ---
 
-# Trouble bringing up the apic designer local services
-
 I was doing some more work in the APIC Toolkit today.
 
 After building some assemblies as part of my api (to be deployed on the DataPower gateway), I clicked the little “play” icon to start the locally running service.
