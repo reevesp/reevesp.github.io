@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Using `git whatchanged` to pick apart accidental merge commits"
+title:  "Using 'git whatchanged' to pick apart accidental merge commits"
 ---
 
 Since I have found myself doing this quite often now, I thought it best I write some notes on it.
 
-## Background.
+### Background.
 
 I accidentally stage files in git, a lot.
 
@@ -24,7 +24,7 @@ _So, my dilemma is:_
 
 Here is what I have found to be my best solution.
 
-## Actually find out which files got _added_ in my huge merge commit
+### Actually find out which files got _added_ in my huge merge commit
 
 The best way to do this (that I have found) seems to be `git whatchanged --diff-filter=A`. I'd never heard of `whatchanged`, but its man page makes it out to be ancient. Anyway, the `--diff-filter=A` argument gives a pretty easy-to-read list of added files per commit. 
 
@@ -59,6 +59,6 @@ Date:   Sun Jan 6 12:10:13 2019 +0000
 
 This is useful info which we can use for the next step.
 
-## Undoing my last commit (local).
+### Undoing my last commit (local).
 
 To undo my last commit, I run `git reset --soft HEAD~1`. I'll use the argument (`--soft`) reset, because I don't actually want any of the files to be changed, I'm about to add the correct ones into a proper merge commit.
