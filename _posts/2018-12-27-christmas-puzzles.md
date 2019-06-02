@@ -5,7 +5,7 @@ title:  "Christmas Puzzles"
 
 # Christmas Puzzles
 
-At my job, my department sent out some Christmas puzzles to work through.
+At my job, my department ([some guy called Aiden](https://github.com/GallagherAiden)) sent out some Christmas puzzles to work through.
 
 ```
 --------------------*******Christmas Puzzles********--------------------
