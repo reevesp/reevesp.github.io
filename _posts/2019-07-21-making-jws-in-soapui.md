@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating JWS in in SoapUI"
+title:  "Creating JWS in SoapUI"
 ---
 
 (As with all my blog posts), Here is a neat trick someone at showed me today which I thought was absolutely fabulous.
@@ -121,8 +121,8 @@ It was very interesting googling and seeing how other people had used this!
 
 #### References
 
-Helen Kosova's Answer on this Smartbear Forum Post: https://community.smartbear.com/t5/SoapUI-Open-Source/How-to-parse-JSON-in-javascript/td-p/133474
+Helen Kosova's Answer on this Smartbear Forum Post: [https://community.smartbear.com/t5/SoapUI-Open-Source/How-to-parse-JSON-in-javascript/td-p/133474](https://community.smartbear.com/t5/SoapUI-Open-Source/How-to-parse-JSON-in-javascript/td-p/133474)
 
-TheKoguryo's Github Blog where they implement this for Postman, in Korean(?) https://thekoguryo.github.io/oci/chapter14/3/4/
+TheKoguryo's Github Blog where they implement this for Postman, in Korean(?) [https://thekoguryo.github.io/oci/chapter14/3/4/](https://thekoguryo.github.io/oci/chapter14/3/4/)
 
 
