@@ -4,7 +4,7 @@ title:  "Installing kubectl on Ubuntu to connect to remote k3s"
 ---
 This shouldn't be too hard.
 
-After [installing k3s on some raspis]({% link _posts/2020-11-02-starting-k3s-on-raspis %}), i now want to manage it from my local Ubuntu.
+After [installing k3s on some raspis]({% link _posts/2020-11-02-starting-k3s-on-raspis.md %}), i now want to manage it from my local Ubuntu.
 
 Unfortunately, `kubectl` wasn't in the default Ubuntu repositories, so I had to do some thinking and read some documentation. It turns out that the doco on kubernetes.io looks pretty good!
 

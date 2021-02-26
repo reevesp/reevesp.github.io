@@ -75,4 +75,4 @@ Final point, this motherboard is my first ever RGB enabled component. However th
 
 Now that I had windows working, I could download the Gigabyte RGB Fusion program, run it, and apply some different colours. I picked RGB rainbow cycle awfulness, because I just wanted to change away from the orange.
 
-_Note: I went on to just update my kernel. Notes are _[_here_]({% link _posts/2021-01-01-fun-upgrading-ryzen-5000-cpu-b550i-motherboard %})
+_Note: I went on to just update my kernel. Notes are _[_here_]({% link _posts/2021-01-26-installing-a-new-kernel-ubuntu.md %})
