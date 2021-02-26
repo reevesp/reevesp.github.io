@@ -3,7 +3,7 @@ layout: post
 title:  "Playing with Ergodox, Part Two"
 ---
 
-<!-- [_Check out Part 1 here._]({% link _posts/2020-11-29-actually-playing-with-ergodox %}) -->
+[_Check out Part 1 here._]({% link _posts/2020-11-29-actually-playing-with-ergodox.md %})
 
 The first thing I noticed was that my `'"` key had been replaced with an "Oryx" training key.
 I the checked with my paper backup and I saw that the Oryx key is the only difference between the new latest layout and the default layout that the keyboard shipped with.

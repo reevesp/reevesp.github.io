@@ -222,4 +222,4 @@ Flash complete
 ...that looks good!
 Now to play with it!
 
-<!-- [_Check out Part 2 here._]({% link _posts/2020-11-29-playing-with-ergodox-part-two %}) -->
+[_Check out Part 2 here._]({% link _posts/2020-11-29-playing-with-ergodox-part-two.md %})
