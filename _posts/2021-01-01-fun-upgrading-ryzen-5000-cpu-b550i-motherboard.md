@@ -74,3 +74,5 @@ Yeah. Synology Drive Client would start, immediately stop and display a pop-up s
 Final point, this motherboard is my first ever RGB enabled component. However the default RGB setting seems to be a faint orange glow, which when you stare at it looks like a motherboard glowing AMD red/orange ... but when seen through your case fans and grills out of the corner of your eye it looks identical to a small fire inside your computer.
 
 Now that I had windows working, I could download the Gigabyte RGB Fusion program, run it, and apply some different colours. I picked RGB rainbow cycle awfulness, because I just wanted to change away from the orange.
+
+_Note: I went on to just update my kernel. Notes are _[_here_]({% link _posts/2021-01-01-fun-upgrading-ryzen-5000-cpu-b550i-motherboard %})
