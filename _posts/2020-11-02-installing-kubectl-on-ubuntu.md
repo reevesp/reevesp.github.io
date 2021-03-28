@@ -123,13 +123,13 @@ peter@C-3PO:~$
 
 OK, now let's see if i can connect to my raspi.
 
-I read this page first on cluster-access. https://rancher.com/docs/k3s/latest/en/cluster-access/
+I read [this page first on cluster-access.](https://rancher.com/docs/k3s/latest/en/cluster-access/)
 
 ... I need to copy the KUBECONFIG file across?
 Can't I run a `kubectl login` command?
 
 Lets dig...
-well, it seems that `kubectl` doesn't have a `login` command? That is an `oc` only thing? Wow. I can see why k3s doco just says to copy the kubeconfig across.
+well, it seems that `kubectl` doesn't have a `login` command? That is an `oc`-only thing? Wow. I can see why k3s doco just says to copy the kubeconfig across.
 
 ```bash
 peter@C-3PO:~$ scp pi@192.168.0.102:/etc/rancher/k3s/k3s.yaml ~/.kube/config

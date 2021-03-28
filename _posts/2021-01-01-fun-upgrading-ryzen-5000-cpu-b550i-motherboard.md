@@ -27,7 +27,7 @@ peter@C-3PO:~$
 
 The next gotcha was how would I download the driver without connectivity? I had been playing around with the `lspci -knn` command and noticed that although I had no ethernet driver, I did have a wi-fi driver. So I attached the aerial that screwed into the back of the motherboard, connected to my wifi, and was able to download the realtek ethernet driver that way.
 
-I downloaded the `2.5G Ethernet LINUX driver r8125 for kernel up to 5.6` from the https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software link, unzipped the archive, and followed the instructions in the README (which were just to unzip the archive and run the `./autorun.sh` as root.
+I downloaded the `2.5G Ethernet LINUX driver r8125 for kernel up to 5.6` from [the link](https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software), unzipped the archive, and followed the instructions in the README (which were just to unzip the archive and run the `./autorun.sh` as root.
 
 That was all I needed to do, I instantly got wired connectivity.
 
@@ -44,9 +44,9 @@ This will reboot and put you straight into Bios. This is the windows equivalent 
 Then, back in my bios, I decided to turn Fast Boot back off.
 
 ## 3. Windows doesn't boot at all
-Although Ubuntu immediately sprang to life, Windows would not boot. Every boot win10 would alternate between showing a black screen with a blue win10 logo, and then showing a black screen with the blue win10 logo and `Preparing Automatic Repair`. I was filled with dread when I googled "Preparing Automatic Repair" and I was shown many 3rd party links saying "HOW TO FIX PREPATING AUTOMATIC REPAIR BOOT LOOP" because I knew then that I was in problem territory.
+Although Ubuntu immediately sprang to life, Windows would not boot. On every boot, win10 would alternate between showing a black screen with a blue win10 logo, and then showing a black screen with the blue win10 logo and `Preparing Automatic Repair`. I was filled with dread when I googled "Preparing Automatic Repair" and I was shown many 3rd party links saying "HOW TO FIX PREPARING AUTOMATIC REPAIR BOOT LOOP" because I knew then that I was in problem territory.
 
-Most help blogs said to reboot 3 times in a row, which will cue win10 to boot into safe-mode next time. That didn't work for me - my win10 alternated between being stuck on the win10 logo and being stuck on the `Preparing Automatic Repair` screens.
+Most help blogs said to reboot 3 times in a row, which will cue win10 to boot into safe-mode on the next time. That didn't work for me - my win10 alternated between being stuck on the win10 logo and being stuck on the `Preparing Automatic Repair` screens.
 
 Further reading of blogs told me that I would need to prepare a win10 installation media to repair my installation ... although I suspect that the repair would involve a re-imaging.
 
@@ -75,4 +75,4 @@ Final point, this motherboard is my first ever RGB enabled component. However th
 
 Now that I had windows working, I could download the Gigabyte RGB Fusion program, run it, and apply some different colours. I picked RGB rainbow cycle awfulness, because I just wanted to change away from the orange.
 
-_Note: I went on to just update my kernel. Notes are _[_here_]({% link _posts/2021-01-26-installing-a-new-kernel-ubuntu.md %})
+_Note: I went on to just update my kernel. Notes are_ [_here._]({% link _posts/2021-01-26-installing-a-new-kernel-ubuntu.md %})

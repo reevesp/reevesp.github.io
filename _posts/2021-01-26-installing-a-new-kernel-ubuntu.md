@@ -24,7 +24,7 @@ peter@C-3PO:~$ uname -r
 
 Ok, so I need to update this to 5.10.
 
-After some googling, it seems like the easiest way to manage kernels is to either use the `mainline` GUI program or this script https://github.com/pimlie/ubuntu-mainline-kernel.sh#install
+After some googling, it seems like the easiest way to manage kernels is to either use the `mainline` GUI program or this script ([ubuntu-mainline-kernel.sh (github)](https://github.com/pimlie/ubuntu-mainline-kernel.sh#install))
 
 I tried the script.
 
