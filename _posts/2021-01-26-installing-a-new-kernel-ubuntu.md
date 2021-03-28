@@ -7,7 +7,7 @@ I wanted to install a new kernel.
 
 I am currently running Ubuntu 20.04 LTS on my main computer at home. This is my desktop PC which I use for "fun" projects, browsing, and gaming.
 
-I have recently purchased some new bits for it, in particular [a new motherboard and a ryzen 5600 cpu]({% link _posts/2021-01-01-fun-upgrading-ryzen-5000-cpu-b550i-motherboard %}). My new mobo uses the r8125 chipset for ethernet.
+I have recently purchased some new bits for it, in particular [a new motherboard and a ryzen 5600 cpu]({% link _posts/2021-01-01-fun-upgrading-ryzen-5000-cpu-b550i-motherboard.md %}). My new mobo uses the r8125 chipset for ethernet.
 
 While I upgraded the parts a while back, there are two main things I have noticed that I do not have hardware support on my current kernel for.
 
